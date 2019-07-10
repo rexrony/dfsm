@@ -1,9 +1,15 @@
-AOS.init({
-        offset: 200,
-        duration: 500,
-        easing: "ease-out-cubic",
-        delay: 100
-    }), AOS.refresh();
+/*****************************/
+// AOS Animate
+/******************************/
+
+        // AOS
+        AOS.init({
+          offset: 200,
+          duration: 600,
+          easing: 'ease-out-cubic',
+          delay: 100,
+      });
+      AOS.refresh();
 
 
 $('.slide-con').slick({
